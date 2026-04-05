@@ -1,0 +1,104 @@
+Project Title
+Student Performance Analysis System using NumPy and Pandas
+
+ 
+
+Project: Develop a Student Performance Analysis System using NumPy and Pandas.
+The project must include at least 20 student records and demonstrate array creation, DataFrame manipulation, filtering, sorting, aggregation, grade calculation, and CSV handling. Students must also generate meaningful academic insights from the dataset.
+
+ 
+
+Project Objective
+Students will create a mini data analysis project using NumPy and Pandas to manage, process, and analyze student academic data.
+
+The project should help students demonstrate:
+
+Creating and handling arrays with NumPy
+Creating and manipulating tables with Pandas
+Performing data cleaning
+Applying filtering, sorting, and aggregation
+Generating useful academic insights from data
+Project Description
+Build a Student Performance Analysis System for a university.
+The system should store and analyze data such as:
+
+Student ID
+Student Name
+Department
+Subject marks
+Attendance percentage
+Total marks
+Average marks
+Grade
+Students must use NumPy for numerical operations and Pandas for tabular data analysis.
+
+Dataset Requirements
+Students should create a dataset containing at least 20 students and the following columns:
+
+Student_ID
+Name
+Department
+Maths
+Python
+Statistics
+Attendance
+Total
+Average
+Grade
+Minimum Requirements
+Part A: NumPy Operations
+Students must demonstrate:
+
+Create NumPy arrays for subject marks
+Find:
+maximum marks
+minimum marks
+mean
+median
+standard deviation
+Perform element-wise operations
+Use indexing and slicing
+Reshape array
+Compare marks above a threshold
+Add bonus marks using NumPy
+Part B: Pandas Operations
+Students must demonstrate:
+
+Create a DataFrame
+Read and write CSV file
+Display first 5 and last 5 rows
+Select specific columns
+Filter students based on conditions
+Sort by average marks
+Add new columns such as Total, Average, and Grade
+Update specific student records
+Delete a column or row
+Handle missing values if any
+Required Analysis Tasks
+Find top 3 performing students
+Find students with attendance below 75%
+Find department-wise average marks
+Find subject-wise highest marks
+Count how many students got each grade
+Show students who scored more than 80 in Python
+Show students whose average is greater than a given threshold
+Grade Logic Example
+A for Average >= 85
+B for Average >= 70 and < 85
+C for Average >= 50 and < 70
+F for Average < 50
+Deliverables
+Problem statement
+Python code
+Input dataset
+Output screenshots
+CSV file generated
+Short report explaining NumPy and Pandas functions used
+Conclusion
+Evaluation Rubric
+Dataset creation – 10 marks
+NumPy implementation – 20 marks
+Pandas implementation – 25 marks
+Data analysis and insights – 20 marks
+Code correctness and formatting – 15 marks
+Report and presentation – 10 marks

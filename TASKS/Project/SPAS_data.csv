@@ -1,0 +1,21 @@
+Student_ID,Name,Department,Maths,Python,Statistics,Attendance,Total,Average,Grade
+1,Alice,Computer Science,85,88,90,90,263,87.66666666666667,A
+2,Bob,Mathematics,92,95,93,95,280,93.33333333333333,A
+3,Charlie,Physics,78,82,80,85,240,80.0,B
+4,David,Chemistry,95,96,97,98,288,96.0,A
+5,Eve,Biology,88,90,89,92,267,89.0,A
+6,Frank,English,90,91,92,94,273,91.0,A
+7,Grace,History,82,85,84,88,251,83.66666666666667,B
+8,Henry,Philosophy,89,92,91,91,272,90.66666666666667,A
+9,Ivy,Psychology,91,94,95,96,280,93.33333333333333,A
+10,Jack,Sociology,87,89,88,89,264,88.0,A
+11,Kate,Economics,84,87,86,87,257,85.66666666666667,A
+12,Liam,Business,93,96,94,97,283,94.33333333333333,A
+13,Mia,Engineering,86,88,87,90,261,87.0,A
+14,Noah,Medicine,94,97,98,99,289,96.33333333333333,A
+15,Olivia,Law,83,84,85,86,252,84.0,B
+16,Peter,Architecture,96,98,99,100,293,97.66666666666667,A
+17,Quinn,Art History,81,83,82,84,246,82.0,B
+18,Rachel,Music,97,99,100,100,296,98.66666666666667,A
+19,Steve,Theater,80,82,81,83,243,81.0,B
+20,Tina,Education,98,100,100,100,298,99.33333333333333,A
