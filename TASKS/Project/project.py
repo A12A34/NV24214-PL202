@@ -33,7 +33,6 @@ SPAS_df["Grade"] = SPAS_df["Average"].apply(assign_grade)
 
 
 if __name__ == "__main__":
-
     while True:
 
         print("\nSPAS Student Performance Analysis System")
