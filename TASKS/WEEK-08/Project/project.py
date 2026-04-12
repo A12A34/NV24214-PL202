@@ -1,5 +1,6 @@
 import pandas as pd
 import numpy as np
+from pathlib import Path
 
 SPAS_data = {
     "Student_ID": [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20],
@@ -30,6 +31,7 @@ def assign_grade(avg):
         return "F"
 
 SPAS_df["Grade"] = SPAS_df["Average"].apply(assign_grade)
+csv_output_path = Path(__file__).with_name("SPAS_data.csv")
 
 
 if __name__ == "__main__":
@@ -78,7 +80,7 @@ if __name__ == "__main__":
 
         elif choice == 4:
 
-            SPAS_df.to_csv("TASKS\\Project\\SPAS_data.csv", index=False)
+            SPAS_df.to_csv(csv_output_path, index=False)
             print("CSV file saved")
 
         elif choice == 5:

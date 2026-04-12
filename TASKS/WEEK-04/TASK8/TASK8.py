@@ -1,5 +1,6 @@
 import requests
 import os
+from pathlib import Path
 
 url = "https://api.github.com/users/torvalds"
 
@@ -10,4 +11,5 @@ data = response.json()
 print("Name:", data["name"])
 print("Public Repos:", data["public_repos"])
 print("Followers:", data["followers"])
-os.system("pip freeze > TASKS\\TASK8\\requirements.txt")
+requirements_path = Path(__file__).with_name("requirements.txt")
+os.system(f'pip freeze > "{requirements_path}"')
